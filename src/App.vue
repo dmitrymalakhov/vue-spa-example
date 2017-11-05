@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: 'root'
+  name: 'root',
 }
 </script>
 
