@@ -25,7 +25,7 @@
 
  <script>
   const linksMap = {
-    0: 'https://docs.google.com/document/d/1JgsCwpkFo-JKs1M9rnYLdqzNjNMQS_IzUciDoc3xBoc/edit?usp=sharing',
+    0: 'https://docs.google.com/document/d/1svRPKlVISg-FNw72OAjZ93kMBudQEAUdF9CaNX2pgUQ/edit?usp=sharing',
   }
 
   export default {
@@ -38,7 +38,7 @@
       return {
         tableData: [
           {
-            title: 'Тематический план на 2017 год ср.гр.',
+            title: 'Проект "Счастливая дорога от детского сада до домашнего порога"',
           },
         ],
       };

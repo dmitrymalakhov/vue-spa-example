@@ -5,11 +5,12 @@
         <div>
           <h1>Добро пожаловать</h1>
           <p>
+            Меня зовут Орешкина Галина Алексеевна
+            <br>
             Я рада приветствовать Вас
             на моем сайте.
             Здесь Вы сможете найти информацию о моих успехах, о жизни ребят
-            в детском саду, познакомиться
-            с основными документами, задать вопросы о воспитании детей
+            в детском саду, познакомиться с основными документами, задать вопросы о воспитании детей
           </p>
         </div>
       </el-col>
@@ -24,12 +25,20 @@
 
 <style lang="scss" scoped>
   .main {
-    h3 {
-      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+    h1, h3 {
+      font-size: 34px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #333;
     }
     
     p {
-      font: 200 16px Georgia, Times New Roman, serif;
+      font-family: 'Open Sans', sans-serif;
+      text-rendering: optimizeLegibility !important;
+      -webkit-font-smoothing: antialiased !important;
+      color: #656c6d;
+      line-height: 28px;
+      margin: 15px 0;
     }
 
     &.author-foto {

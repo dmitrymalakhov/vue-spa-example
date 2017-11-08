@@ -24,8 +24,8 @@
     </el-header>
     <el-main>
       <el-row type="flex" class="row-bg" justify="center">
-        <el-col :span="16">
-          <div class="grid-content bg-purple">
+        <el-col :span="18">
+          <div class="grid-content bg-purple content">
             <router-view />
           </div>
         </el-col>
@@ -41,6 +41,10 @@ export default {
 </script>
 
 <style scoped>
+.content {
+  padding-top: 30px;
+}
+
 .el-menu {
   font-family: sans-serif, Helvetica, Arial;
   -webkit-font-smoothing: antialiased;

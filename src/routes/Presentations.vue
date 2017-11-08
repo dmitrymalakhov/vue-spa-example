@@ -25,7 +25,7 @@
 
  <script>
   const linksMap = {
-    0: 'https://docs.google.com/document/d/1JgsCwpkFo-JKs1M9rnYLdqzNjNMQS_IzUciDoc3xBoc/edit?usp=sharing',
+    0: 'https://docs.google.com/presentation/d/1WepQXbeNA7MLTF-EF7uw1feu12vKYOQGBIp3bET4gS0/edit?usp=sharing',
   }
 
   export default {
@@ -38,7 +38,7 @@
       return {
         tableData: [
           {
-            title: 'Тематический план на 2017 год ср.гр.',
+            title: 'Презентация мини-музей',
           },
         ],
       };

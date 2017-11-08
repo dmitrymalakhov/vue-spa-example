@@ -4,7 +4,7 @@
       <el-col :span="14">
         <h1>Орешкина Галина Алексеевна</h1>
         <h3>Должность:</h3>
-        <p>воспитатель</p></li>
+        <p>Воспитатель</p></li>
 
         <h3>Сведения об образовании:</h3>
         <p>1984 - 1986 гг Дзержинское педадогическое училище . Квалификация воспитатель детского сада</p>
@@ -85,12 +85,30 @@ export default {
       border-radius: 15px;
     }
 
+    h1, h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-weight: 500;
+      line-height: 1.1;
+    }
+
+    h1 {
+      font-size: 40px;
+      color: #333;
+    }
+
     h3 {
-      font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+      font-size: 30px;
+      color: #333;
     }
     
     p {
-      font: 200 16px Georgia, Times New Roman, serif;
+      font-family: 'Open Sans', sans-serif;
+      text-rendering: optimizeLegibility !important;
+      -webkit-font-smoothing: antialiased !important;
+      color: #656c6d;
+      line-height: 28px;
+      margin: 15px 0;
     }
 
     .author-foto {
