@@ -1,33 +1,51 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Main from '../routes/Main'
-import Material from '../routes/Material'
-import About from '../routes/About'
+import Portfolio from '../routes/Portfolio'
+import Methodical from '../routes/Methodical'
+import Synopsis from '../routes/Synopsis'
+import Parents from '../routes/Parents'
+import Photogallery from '../routes/Photogallery'
 import Сontacts from '../routes/Сontacts'
+
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   routes: [
     {
-      path: '/main',
-      name: 'Главная',
+      path: '/',
       component: Main,
     },
     {
-      path: '/about',
-      name: 'Об авторе',
-      component: About,
+      path: '/main',
+      component: Main,
     },
     {
-      path: '/material',
-      name: 'Материалы',
-      component: Material,
+      path: '/portfolio',
+      component: Portfolio
+    },
+    {
+      path: '/methodical',
+      component: Methodical,
+    },
+    {
+      path: '/methodical/synopsis',
+      component: Synopsis,
+    },
+    {
+      path: '/parents',
+      component: Parents,
+    },
+    {
+      path: '/photogallery',
+      component: Photogallery,
     },
     {
       path: '/contacts',
-      name: 'Контакты',
       component: Сontacts,
     },
   ],
-})
+});
+
+export default router;

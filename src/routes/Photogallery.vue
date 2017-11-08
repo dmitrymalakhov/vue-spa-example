@@ -1,5 +1,5 @@
 <template>
   <div>
-    material
+    Photogallery
   </div>
 </template>

@@ -17,9 +17,6 @@ Vue.use(Nav)
 new Vue({
   el: '#app',
   router,
-  data: {
-    test: 2,
-  },
   template: '<App/>',
   components: { App },
 })
