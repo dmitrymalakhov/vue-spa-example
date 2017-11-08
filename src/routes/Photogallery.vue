@@ -70,6 +70,23 @@ export default {
 
 <style lang="scss" scoped>
   .portfolio {
+    h1, h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-weight: 500;
+      line-height: 1.1;
+    }
+
+    h1 {
+      font-size: 40px;
+      color: #333;
+    }
+
+    h3 {
+      font-size: 30px;
+      color: #333;
+    }
+
     .image {
       float: left;
       background-size: cover;
